@@ -16,6 +16,21 @@
         float: right;
         width: 65%;
     }
+
+    div.campo > input {
+        background-color: var(--cor2);
+        font-size: 1em;
+        width: calc(100% - 45px);
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translate(+1px, -14px);
+    }
+
+    .campo {
+        height: 40px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -41,5 +56,20 @@
     
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    div.campo > input {
+        background-color: var(--cor2);
+        font-size: 1em;
+        width: calc(100% - 45px);
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translate(+1px, -14px);
+    }
+
+    .campo {
+        height: 40px;
     }
 }
