@@ -113,7 +113,7 @@ div.campo {
     background-color: var(--cor1);
     width: 100%;
     display: block;
-    height: 37px;
+    height: 35px;
     border-radius: 8px;
     margin: 5px 0px;
     border: 2px solid gray;
@@ -138,7 +138,7 @@ div.campo > input {
     border: 0px;
     border-radius: 5px;
     padding: 5px;
-    transform: translate(+1px, -14px);
+    transform: translate(+1px, -15px);
 }
 
 div.campo > input:focus-within {
