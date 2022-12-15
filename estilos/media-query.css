@@ -17,19 +17,26 @@
         width: 65%;
     }
 
+    div.campo {
+        display: flex;
+        background-color: var(--cor1);
+        width: 100%;
+        height: 37px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        border: 2px solid gray;
+    }
+
     div.campo > input {
         background-color: var(--cor2);
         font-size: 1em;
-        width: calc(100% - 45px);
         height: 100%;
+        width: 100%;
         border: 0px;
         border-radius: 5px;
-        padding: 4px;
-        transform: translate(+1px, -15px);
-    }
-
-    .campo {
-        height: 40px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -58,18 +65,25 @@
         font-size: 1.2em;
     }
 
+    div.campo {
+        display: flex;
+        background-color: var(--cor1);
+        width: 100%;
+        height: 37px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        border: 2px solid gray;
+    }
+
     div.campo > input {
         background-color: var(--cor2);
         font-size: 1em;
-        width: calc(100% - 45px);
         height: 100%;
+        width: 100%;
         border: 0px;
         border-radius: 5px;
-        padding: 4px;
-        transform: translate(+1px, -14px);
-    }
-
-    .campo {
-        height: 40px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
     }
 }

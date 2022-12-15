@@ -110,9 +110,9 @@ input[type=submit]:hover {
 }
 
 div.campo {
+    display: flex;
     background-color: var(--cor1);
     width: 100%;
-    display: block;
     height: 37px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -133,12 +133,13 @@ div.campo > span {
 div.campo > input {
     background-color: var(--cor2);
     font-size: 1em;
-    width: calc(100% - 45px);
     height: 100%;
+    width: 100%;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
-    transform: translate(+1px, -15px);
+    justify-content: center;
+    align-items: center;
 }
 
 div.campo > input:focus-within {
