@@ -119,16 +119,20 @@ div.campo {
     border: 2px solid gray;
 }
 
-div.campo > label {
+.labelNone {
     display: none;
 }
 
-div.campo > span {
+img {
+    padding: 5px;
+}
+
+/* div.campo > span {
     color: gray;
     font-size: 2em;
     width: 40px;
     padding: 5px;
-}
+} */
 
 div.campo > input {
     background-color: var(--cor2);
